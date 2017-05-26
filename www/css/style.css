@@ -1,0 +1,9 @@
+/* Empty. Add your own CSS if you like */
+.my-image img {
+-webkit-user-drag: none;
+width: 150px;
+display: block;
+margin: 50px;
+border-radius: 20px;
+height: 150px;
+}

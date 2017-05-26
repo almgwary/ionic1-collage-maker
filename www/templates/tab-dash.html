@@ -1,0 +1,12 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <h2>{{title}}</h2>
+   
+    <button ion-button color="secondary" ng-click="onClick()">get picture</button>
+    <span class="my-image">
+        <img ng-if="imageURI" src="{{imageURI}}" id="myImage" alt="">
+    </span>
+    
+
+  </ion-content>
+</ion-view>
