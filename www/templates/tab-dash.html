@@ -2,10 +2,18 @@
   <ion-content class="padding">
     <h2>{{title}}</h2>
    
-    <button ion-button color="secondary" ng-click="onClick()">get picture</button>
-    <span class="my-image">
+    
+    <button ion-button color="secondary" ng-click="get1stImage()">get1stImage</button>
+    <button ion-button color="secondary" ng-click="get2ndtImage()">get2ndtImage</button>
+    <button ion-button color="secondary" ng-click="get3rdtImage()">get3rdtImage</button>
+    <button ion-button color="secondary" ng-click="get4thtImage()">get4thtImage</button>
+    <button ion-button color="secondary" ng-click="save()">save</button>
+    <!--<span class="my-image">
         <img ng-if="imageURI" src="{{imageURI}}" id="myImage" alt="">
-    </span>
+    </span>-->
+
+
+     <canvas id="canvas" style="border: 1px gray solid; float: left"></canvas>
     
 
   </ion-content>
